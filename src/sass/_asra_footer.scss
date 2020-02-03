@@ -1,0 +1,33 @@
+footer{
+    width: 385px;
+    position: fixed;
+    left: 50%;
+    bottom: 2%;
+    transform: translate(-50%,0);
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    .menuBtn{
+        text-align: center;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: white;
+        margin: 0 10px;
+        &:nth-child(1){
+            background-color: #2d2d2d;
+        }
+    
+    }
+
+    .menu{
+        position: absolute;
+        bottom: 18px;
+        left: -7px;
+        .menuObject{
+            width: 50px;
+        }
+    }
+
+
+}
